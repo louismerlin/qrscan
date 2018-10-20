@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
+import jsQR from 'jsqr'
 
 const { requestAnimationFrame } = global
 
 class QRScan extends Component {
-  
   constructor (props) {
     super(props)
     this.state = {
@@ -12,7 +12,7 @@ class QRScan extends Component {
       video: null
     }
   }
-  
+
   componentDidMount () {
     const video = document.createElement('video')
     const canvasElement = document.getElementById('qrCanvas')

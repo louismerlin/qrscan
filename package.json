@@ -13,5 +13,8 @@
     "qrjs": "^0.1.2",
     "react": "^16",
     "react-dom": "^16"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
   }
 }
