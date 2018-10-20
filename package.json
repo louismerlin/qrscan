@@ -9,11 +9,12 @@
   },
   "author": "Louis Merlin <louis.merlin@epfl.ch>",
   "license": "MIT",
+  "homepage": "https://louismerlin.github.io/qrscan/",
   "scripts": {
     "lint": "standard",
     "build": "babel QRScan.js -d dist",
     "demo:start": "parcel demo/index.html",
-    "demo:build": "parcel build demo/* -d docs"
+    "demo:build": "parcel build demo/* -d docs --public-url /qrscan/"
   },
   "dependencies": {
     "qrjs": "^0.1.2"
