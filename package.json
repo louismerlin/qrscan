@@ -1,6 +1,6 @@
 {
   "name": "qrscan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "QR scanner for React",
   "main": "dist/QRScan.js",
   "repository": {
