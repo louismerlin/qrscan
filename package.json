@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "QR scanner for React",
   "main": "index.js",
-  "repository": "https://github.com/louismerlin/qrscan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/louismerlin/qrscan.git"
+  },
   "author": "Louis Merlin <louis.merlin@epfl.ch>",
   "license": "MIT"
 }
