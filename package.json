@@ -9,6 +9,9 @@
   },
   "author": "Louis Merlin <louis.merlin@epfl.ch>",
   "license": "MIT",
+  "scripts": {
+    "lint": "standard"
+  },
   "dependencies": {
     "qrjs": "^0.1.2",
     "react": "^16",
