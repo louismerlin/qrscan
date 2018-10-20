@@ -11,18 +11,22 @@
   "license": "MIT",
   "scripts": {
     "lint": "standard",
-    "build": "parcel build QRScan.js",
+    "build": "babel QRScan.js -d dist",
     "demo:start": "parcel demo/index.html",
     "demo:build": "parcel build demo/* -d docs"
   },
-  "dependencies": {
-    "jsqr": "^1.1.1",
-    "qrjs": "^0.1.2",
-    "react": "^16",
-    "react-dom": "^16"
-  },
   "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-react": "^7.0.0",
+    "jsqr": "^1.1.1",
     "parcel-bundler": "^1.10.3",
+    "qrjs": "^0.1.2",
+    "react": "^16.5.2",
+    "react-dom": "^16",
     "standard": "^12.0.1"
+  },
+  "peerDependencies": {
+    "react": ">= 0.11.2 < 17"
   }
 }
